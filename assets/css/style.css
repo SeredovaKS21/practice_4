@@ -1,8 +1,8 @@
-body {
+body{
     font-family: 'Ubuntu', sans-serif;
  }
 
-.header {
+.header{
     width: 100%; /* ширина буде у всю ширину батьківського елементу */
     max-width: 1180px; /* максимальна ширина */
     margin: 0 auto; /* для розміщення по центру */
@@ -13,12 +13,12 @@ body {
     box-sizing: border-box; /* ширина border не додається в ширину елементу */
 }
 
-.nav {
+.nav{
     display: flex;
     list-style-type: none; /* прибираємо вигляд списку за замовчування */
     justify-content: flex-start;
     font-size: 14px; 
-align-items: center;
+    align-items: center;
 }
 
 .nav>li{
@@ -26,55 +26,56 @@ align-items: center;
 }
 
 .nav>li>a{
-text-decoration: none;
-color: #202020;
-font-weight: 700;
+    text-decoration: none;
+    color: #202020;
+    font-weight: 700;
 }
 
-.logo {
+.logo{
     display: flex;
     align-items: center;
     text-decoration: none;
- }
- .logo img {
+}
+
+.logo img{
     display: block;
     width: 100px;
     height: 100px;
- }
+}
  
- .logo span {
+.logo span{
     font-size: 24px;
     color: #202020;
     font-weight: 700;
- }
+}
 
- .nav .button {
+.nav .button{
     background: #5B9AFF/*колір фону*/;
     border-radius: 10px/*радіус*/;
     color: white/*колір шрифта*/;
     font-weight: normal/**/;
     padding: 5px 15px;
     border: none;
- }
+}
 
- .page-top {
+.page-top{
     border-top: 1px solid #C2C2C2;
- }
+}
 
- .page{
+.page{
     padding-top: 60px;
     padding-bottom: 60px;
     position: relative;
- }
+}
  
- .wrap{
+.wrap{
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
     box-sizing: border-box;
- }
+}
 
- .page h2 {
+.page h2{
     position: absolute;
     font-size: 14px;
     font-weight: 300;
@@ -82,9 +83,9 @@ font-weight: 700;
     top: -20px; /* це значення підберіть використовуючи dev tools */
     background: white;
     padding: 0 20px;
- }
+}
 
- .page .button{
+.page .button{
     background: #5B9AFF;
     border-radius: 10px;
     color: white;
@@ -94,76 +95,74 @@ font-weight: 700;
     border: none;
     margin-top: 40px;
     margin-bottom: 40px;
-    }
+}
 
-    .page h1 {
-        font-size: 48px;
-        color: #202020;
-        font-weight: bold;
-    }
+.page h1{
+    font-size: 48px;
+    color: #202020;
+    font-weight: bold;
+}
 
-    .page .hero-text{
-        width: 741px;
-                    font-size: 32px;
-                    color: #4F4F4F;
-                    font-weight: normal;
-        line-height: 51px;/* висота міжрядкового інтервалу, беремо з фігми*/
-                   }
+.page .hero-text{
+    width: 741px;
+    font-size: 32px;
+    color: #4F4F4F;
+    font-weight: normal;
+    line-height: 51px;/* висота міжрядкового інтервалу, беремо з фігми*/
+}
         
-                   .departments{
-                    display: grid;
-                    grid-template-rows: 50% 50%;
-                    grid-template-columns: 50% 50%;
-                    grid-row-gap: 20px; /*простір між рядками*/
-                 }
+.departments{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 20px; /*простір між рядками*/
+}
 
-                 .departments{
-                    display: grid;
-                    grid-template-rows: 50% 50%;
-                    grid-template-columns: 50% 50%;
-                    grid-row-gap: 20px; /*простір між рядками*/
-                 }
+.departments{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 20px; /*простір між рядками*/
+}
                  
 .departments h3{
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
-    line-height: 25px;
-    /* identical to box height */
-    
-    
+    line-height: 25px;  
     color: #000000;
     margin:0 0 24px;
 }
 
 .departments p{
     font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-
-color: #B2B2B2;
-margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B2B2;
+    margin: 0;
 }
- .dep-item {
-   display: flex;
-   justify-content: flex-start;
- align-items: center;
+
+.dep-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .dep-item .img{
     flex-basis: 140px; /* базовий розмір флекс елементу */
     text-align: center;
- }
- .dep-item .text{
-    flex-basis: calc(100% - 140px); /* розміри в css можна обчислювати за допомоги функцій calc*/
- }
+}
 
- .imgBorder{
+.dep-item .text{
+    flex-basis: calc(100% - 140px); /* розміри в css можна обчислювати за допомоги функцій calc*/
+}
+
+.imgBorder{
     padding: 3px 4px;
     border: #5B9AFF 5px solid;
     border-radius: 9px;
- }
+}
 
 .teachers{
     display: grid;
@@ -171,36 +170,32 @@ margin: 0;
     padding-top: 42px;
 }
  
-.teachers .dep-item .text {
+.teachers .dep-item .text{
     flex-basis: auto;
     margin-left: 30px;
 }
  
-.dep-item p {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-
-color: #B2B2B2;
+.dep-item p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B2B2;
 }
 
-.teachers .dep-item p {
+.teachers .dep-item p{
     margin: 0;
     width: 200px;
 }
 
-.teachers .dep-item h3 {
+.teachers .dep-item h3{
     font-style: normal;
     width: 229px;
-font-weight: bold;
-font-size: 28px;
-line-height: 32px;
-margin: 0 0 11px;
-/* identical to box height */
-
-
-color: #202020;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0 0 11px;
+    color: #202020;
 }
 
 .teachers .dep-item{
@@ -215,28 +210,29 @@ color: #202020;
 
 footer{
     background-color: #F7F7F7;
- }
+}
  
- .footer{
+.footer{
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
- .social{
+}
+
+.social{
     display: flex;
     list-style-type: none;
- }
+}
+
 .social li{
     margin-left: 42px;
 } 
 
 .social li a{
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-
-color: #B2B2B2;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #B2B2B2;
 }
